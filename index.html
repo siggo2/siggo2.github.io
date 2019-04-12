@@ -14,23 +14,23 @@
         body {
             background: url(image.jpg);
         	background-repeat: no-repeat;
-        	background-size: cover;
+        	background-position: top right;
         }
         .center-box {
-    		padding-top: 20px;
-    		padding-left: 40px;
+    		padding-top: 40px;
+    		padding-left: 60px;
         }
         @font-face {
 		    font-family: "Gothic";
 		    src: url(GOTHIC.TTF) format("truetype");
 		}
 		h1 { 
-			margin-bottom: 60px;
+			margin-bottom: 40px;
 			font-size: 96px;
 		 }
 		 p {
-		 	font-size: 60px;
-	 		line-height: 1;
+		 	font-size: 28px;
+	 		line-height: 0.7;
 		 }
 		p, h1 { 
 		    font-family: "Gothic", Verdana, Tahoma;
@@ -39,21 +39,19 @@
 		.yellow { 
 			color: #FBC113;
 		}
-		.link {
-			position: absolute;
-			bottom: 40px;
-			left: 40px;
+		.spacing {
+			margin-bottom: 40px;
 		}
 
-		.link a {
-			font-size: 36px;
+		a {
+			font-size: 28px;
 			color: #918F90;
-			text-shadow: -1px 0 #FBC113, 0 1px #FBC113, 1px 0 #FBC113, 0 -1px #FBC113;
 		}
-		.link a:hover {
+		a:hover {
 			text-decoration: none;
+			color: #918F90;
 		}
-		.link a:visited {
+		a:visited {
 			color: #918F90;
 		}
     </style>
@@ -67,13 +65,11 @@
     <div>
         <div class="center-box">
             <h1><span class="yellow">ludika</span> architects</h1>
+            <p class="spacing"><a href="mailto:info@ludika.co.uk" target="_top">info@ludika.co.uk</a></p>
             <p>urban design</p>
             <p>architecture</p>
             <p>interiors</p>
             <p>furniture</p>
-        </div>
-        <div class="link">
-        	<a href="mailto:info@ludika.co.uk" target="_top">info@ludika.co.uk</a>
         </div>
     </div>
 </body>
